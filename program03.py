@@ -1,6 +1,6 @@
 n = int(input("Enter a number:"))
 if n<=1:
-print("Neither Prime nor Composite")
+    print("Neither Prime nor Composite")
 else:
     for i in range(2, n):
         if n%i==0:
