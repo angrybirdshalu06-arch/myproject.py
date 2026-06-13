@@ -1,6 +1,6 @@
 user_input= int (input("Enter a number:"))
-rev = 0
+reversed_number = 0
 while user_input > 0:
-    rev = rev * 10 + user_input % 10
+    reversed_number = reversed_number * 10 + user_input % 10
     user_input//=10
-print("Reverse:", rev)
+print("reversed_number:", reversed_number)
